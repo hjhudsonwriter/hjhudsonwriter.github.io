@@ -1,0 +1,11 @@
+Lord & Lance — operating manual: selected verbatim passages
+Source: docs/system/WORKFLOW.md
+Section: Running two sessions at once — only for two Claude Code tickets
+Current local file read: 24 September 2026
+Selected sentences from lines 24, 26 and 27, in that order. Intervening instructions are omitted; this is not the complete manual or a historical commit snapshot.
+
+Each session keeps its notes in `scratch/session-<number>.md`, so two sessions on two different tickets do not tread on each other.
+
+Run `/close <a>` and wait for its 5-line summary before typing `/close <b>`.
+
+Always give `/close` the number. With two session files present it cannot guess which ticket you mean.
